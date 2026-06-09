@@ -45,3 +45,15 @@ Initializing the ROS 2 client library (rclpy)
 Inheriting from the ROS 2 Node class
 Logging information to the ROS 2 console
 Keeping a node alive using the ROS 2 execution loop
+
+# ROS 2 Workspace Structure
+ros2_ws/
+├── src/
+│   └── my_robot_pkg/
+├── build/
+├── install/
+└── log/
+src/ contains source code and packages
+build/ contains generated build files
+install/ contains compiled and executable packages
+log/ stores build and runtime logs
