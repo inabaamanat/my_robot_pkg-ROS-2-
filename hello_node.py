@@ -14,3 +14,15 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
+
+ What Happens When It Runs?
+ROS 2 is initialized using rclpy.init()
+A node called hello_node is created
+The node logs the message:
+Hello ROS 2!
+rclpy.spin() keeps the node running and ready to communicate with other nodes
+
+Although simple, this program introduces the fundamental building block of every ROS 2 application: the node!
